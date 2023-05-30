@@ -1,1 +1,2 @@
 #!/bin/bash
+sort /etc/oasswd | cut -d : -f1,6
